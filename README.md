@@ -1,7 +1,7 @@
 # Type checking library
 
 [![npm version](https://badge.fury.io/js/%40js-utilities%2Ftypecheck.svg)](https://badge.fury.io/js/%40js-utilities%2Ftypecheck)
-[![Build Status](https://travis-ci.org/vitalishapovalov/Typecheck.svg?branch=master)](https://travis-ci.org/vitalishapovalov/Typecheck)
+[![Build Status](https://travis-ci.org/vitalishapovalov/Typecheck.svg?branch=master)](https://travis-ci.org/vitalishapovalov/Typecheck) [![Greenkeeper badge](https://badges.greenkeeper.io/vitalishapovalov/Typecheck.svg)](https://greenkeeper.io/)
 
 A set of super-simple type checkers. Each checker returns `boolean` value. Most checkers are typescript [type predicates](https://www.typescriptlang.org/docs/handbook/advanced-types.html#using-type-predicates).
 
