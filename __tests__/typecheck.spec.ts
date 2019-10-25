@@ -144,6 +144,7 @@ describe("typecheck test", () => {
     });
 
     it("should correctly check that value is a Symbol", () => {
+        console.log(typeof Symbol());
         expect(isSymbol(Symbol())).toBeTruthy();
         expect(isSymbol(Symbol("1"))).toBeTruthy();
         expect(isSymbol(Symbol.for("1"))).toBeTruthy();

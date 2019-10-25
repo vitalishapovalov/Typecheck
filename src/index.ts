@@ -49,7 +49,7 @@ export const isString = (v: any): v is string => (
 );
 
 export const isSymbol = (v: any): v is symbol => (
-    typeof v === "symbol"
+    (isObject(v) || typeof v === "symbol") && toString(v) === "[object Symbol]"
 );
 
 export const isNull = (v: any): v is null => (
@@ -57,19 +57,19 @@ export const isNull = (v: any): v is null => (
 );
 
 export const isMap = <T = any, U = any>(v: any): v is Map<T, U> => (
-    v instanceof Map
+    isObject(v) && toString(v) === "[object Map]"
 );
 
 export const isSet = <T = any>(v: any): v is Set<T> => (
-    v instanceof Set
+    isObject(v) && toString(v) === "[object Set]"
 );
 
 export const isWeakSet = <T extends object>(v: any): v is WeakSet<T> => (
-    v instanceof WeakSet
+    isObject(v) && toString(v) === "[object WeakSet]"
 );
 
 export const isWeakMap = <T extends object, U = any>(v: any): v is WeakMap<T, U> => (
-    v instanceof WeakMap
+    isObject(v) && toString(v) === "[object WeakMap]"
 );
 
 export const isPromise = <T = any>(v: any): v is Promise<T> => (

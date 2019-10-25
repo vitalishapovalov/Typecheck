@@ -7,3 +7,5 @@ tsconfig.json
 rollup.config.ts
 *.log
 tslint.ts
+.idea
+.travis.yml
