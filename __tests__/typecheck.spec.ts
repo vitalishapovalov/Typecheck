@@ -1,3 +1,4 @@
+import "@jest-decorated/core/globals";
 import {
     isCallable,
     isFunction,
@@ -16,7 +17,6 @@ import {
     isWeakSet,
     isPromise,
 } from "../src";
-import { Describe, It } from "@jest-decorated/core";
 
 @Describe("typecheck test")
 class TypecheckSpec {
