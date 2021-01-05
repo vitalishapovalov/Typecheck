@@ -13,12 +13,6 @@ npm i -S @js-utilities/typecheck
 
 ## Usage example
 
-```js
-import { isBoolean } from "@js-utilities/typecheck";
-
-const defaultValue = isBoolean(option.isEnabled) ? option.isEnabled : true;
-```
-
 ```typescript
 import { isCallable } from "@js-utilities/typecheck";
 
