@@ -1,4 +1,4 @@
-import "@jest-decorated/core/globals";
+import { Describe, It } from "@jest-decorated/core";
 import {
     isCallable,
     isFunction,
