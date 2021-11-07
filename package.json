@@ -1,6 +1,6 @@
 {
   "name": "@js-utilities/typecheck",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Utility library for javascript type checking.",
   "license": "MIT",
   "author": {

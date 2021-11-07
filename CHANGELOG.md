@@ -1,6 +1,10 @@
-# 0.1.5
+# 0.1.6
 
 No code changes. Re-build the lib using latest ts/rollup/optimizers.
+
+# 0.1.5
+
+BROKEN BUILD. Please, use `0.1.6` instead.
 
 # 0.1.4
 
