@@ -8,4 +8,5 @@ rollup.config.ts
 *.log
 tslint.ts
 .idea
+.github
 .travis.yml
